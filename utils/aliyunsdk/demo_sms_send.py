@@ -15,8 +15,8 @@ Created on 2017-06-12
 
 """
 
-ACCESS_KEY_ID = "你的key"
-ACCESS_KEY_SECRET = "你的密钥"
+ACCESS_KEY_ID = "uXIWtuAQspvFqpCt"
+ACCESS_KEY_SECRET = "g4dRrretS3HDiACJuwkaUzoUgUG8C4"
 
 # 注意：不要更改
 REGION = "cn-hangzhou"

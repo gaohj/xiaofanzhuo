@@ -89,6 +89,7 @@ def sms_captcha(request):
     # print(result)
     #http://127.0.0.1:9000/sms_captcha?telephone=13777777777
     telephone = request.GET.get('telephone') #接收手机号
+    print(telephone)
     code = Captcha.gene_text() #生成随机的字符
     cache.set(telephone, code, 5 * 60) #然后放到了混存中
     print('短信验证码：', code)

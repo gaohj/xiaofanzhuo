@@ -33,7 +33,7 @@ class Captcha(object):
     # 加入干扰线的条数
     line_number = 3
 
-    SOURCE = list(string.ascii_letters) #随机生成字符串      a-zA-Z
+    SOURCE = list(string.ascii_letters)
     for index in range(0, 10):
         SOURCE.append(str(index))
 
@@ -70,7 +70,6 @@ class Captcha(object):
         text = cls.gene_text() #生成字符串
         font_width, font_height = font.getsize(text)
         draw.text(((width - font_width) / 2, (height - font_height) / 2),text,font= font,fill=cls.fontcolor) #填充字符串
-        #填充到上面 draw的 image中
         # 如果需要绘制干扰线
         if cls.draw_line:
             # 遍历line_number次,就是画line_number根线条
