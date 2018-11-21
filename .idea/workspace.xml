@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34efa687-67de-4511-bb78-85a3bfe10521" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/js/auth.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/js/auth.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/js/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/templates/common/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/templates/common/auth.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +35,9 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="19" />
-          <entry key="html" value="886" />
+          <entry key="html" value="888" />
           <entry key="ini" value="53" />
-          <entry key="js" value="1075" />
+          <entry key="js" value="1077" />
           <entry key="py" value="5488" />
           <entry key="py@xfz" value="51" />
           <entry key="scss" value="12" />
@@ -48,9 +46,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="50" />
-          <entry key="HTML" value="886" />
+          <entry key="HTML" value="888" />
           <entry key="Ini" value="53" />
-          <entry key="JavaScript" value="1075" />
+          <entry key="JavaScript" value="1077" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Python" value="5488" />
           <entry key="SCSS" value="12" />
@@ -120,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/templates/common/auth.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+            <state relative-caret-position="397">
+              <caret line="78" column="69" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -130,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/front/dist/js/auth.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="1534" selection-start-column="1523" selection-end-column="1534" />
+              <caret column="1534" selection-start-column="1534" selection-end-column="1534" />
             </state>
           </provider>
         </entry>
@@ -150,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/src/js/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+            <state relative-caret-position="-2226">
+              <caret line="54" column="17" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -188,6 +186,7 @@
       <find>con</find>
       <find>submit-btn</find>
       <find>123456</find>
+      <find>registers</find>
     </findStrings>
     <dirStrings>
       <dir>C:\www\project\xfz\front\templates\cms</dir>
@@ -232,8 +231,8 @@
         <option value="$PROJECT_DIR$/front/dist/js/auth.min.js" />
         <option value="$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py" />
         <option value="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" />
-        <option value="$PROJECT_DIR$/front/templates/common/auth.html" />
         <option value="$PROJECT_DIR$/front/src/js/auth.js" />
+        <option value="$PROJECT_DIR$/front/templates/common/auth.html" />
       </list>
     </option>
   </component>
@@ -727,22 +726,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/common/auth.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+        <state relative-caret-position="397">
+          <caret line="78" column="69" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/dist/js/auth.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1534" selection-start-column="1523" selection-end-column="1534" />
+          <caret column="1534" selection-start-column="1534" selection-end-column="1534" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/src/js/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+        <state relative-caret-position="-2226">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="17" />
         </state>
       </provider>
     </entry>
