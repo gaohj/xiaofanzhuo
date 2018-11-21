@@ -38,7 +38,7 @@ class RegisterForm(forms.Form,AllForm):
         telephone = cleaned_data.get('telephone')
         sms_captcha = cleaned_data.get('sms_captcha')
         cached_sms_captcha = cache.get(telephone)
-
+        print(cached_sms_captcha.lower())
 
         if not cached_sms_captcha or cached_sms_captcha.lower() != sms_captcha.lower():
             raise forms.ValidationError('短信验证码错误！')

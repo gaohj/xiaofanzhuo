@@ -100,17 +100,17 @@ $(function () {
     })
     
     
-     $('.submit-btn1').click(function() {
+     $('.submit-btn').click(function() {
         // var d = {};
         // var t = $('.signin-group .form-control').serializeArray();
         //  $.each(t, function() {
         //     d[this.name] = this.value;
         // });
         //  alert(JSON.stringify(d));
-         var signinGroup = $('.signin-group');
-         var telephoneInput = signinGroup.find("input[name='telephone']").val();
-        var passwordInput = signinGroup.find("input[name='password']").val();
-        var rememberInput = signinGroup.find("input[name='remember']").prop("checked");
+      var signinGroup = $('.signin-group');
+      var telephoneInput = signinGroup.find("input[name='telephone']").val();
+      var passwordInput = signinGroup.find("input[name='password']").val();
+      var rememberInput = signinGroup.find("input[name='remember']").prop("checked");
           xfzajax.post({
             'url': '/account/login/',
             'data': {

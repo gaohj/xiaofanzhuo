@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34efa687-67de-4511-bb78-85a3bfe10521" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/dist/js/auth.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/js/auth.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/js/auth.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +37,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="19" />
-          <entry key="html" value="885" />
+          <entry key="html" value="886" />
           <entry key="ini" value="53" />
-          <entry key="js" value="1021" />
-          <entry key="py" value="5477" />
+          <entry key="js" value="1075" />
+          <entry key="py" value="5488" />
           <entry key="py@xfz" value="51" />
           <entry key="scss" value="12" />
         </counts>
@@ -45,11 +48,11 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="50" />
-          <entry key="HTML" value="885" />
+          <entry key="HTML" value="886" />
           <entry key="Ini" value="53" />
-          <entry key="JavaScript" value="1021" />
+          <entry key="JavaScript" value="1075" />
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="5477" />
+          <entry key="Python" value="5488" />
           <entry key="SCSS" value="12" />
         </counts>
       </usages-collector>
@@ -117,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/templates/common/auth.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="71" column="82" selection-start-line="71" selection-start-column="82" selection-end-line="71" selection-end-column="82" />
+            <state relative-caret-position="447">
+              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -135,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="355">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -144,19 +147,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front/src/js/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="70" column="28" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="28" />
+            <state relative-caret-position="378">
+              <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="1707">
               <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
@@ -227,10 +230,10 @@
         <option value="$PROJECT_DIR$/uwsgi.ini" />
         <option value="$PROJECT_DIR$/utils/aliyunsdk/demo_sms_send.py" />
         <option value="$PROJECT_DIR$/front/dist/js/auth.min.js" />
+        <option value="$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py" />
+        <option value="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" />
         <option value="$PROJECT_DIR$/front/templates/common/auth.html" />
         <option value="$PROJECT_DIR$/front/src/js/auth.js" />
-        <option value="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" />
-        <option value="$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py" />
       </list>
     </option>
   </component>
@@ -387,12 +390,12 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.14792176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.14792176" />
       <window_info id="Structure" order="1" sideWeight="0.50167227" side_tool="true" weight="0.2591687" />
       <window_info id="Favorites" order="2" sideWeight="0.50167227" side_tool="true" weight="0.2591687" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.33856502" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.33856502" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,37 +695,6 @@
         <state relative-caret-position="-1959" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/dist/js/auth.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1534" selection-start-column="1523" selection-end-column="1534" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/templates/common/auth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="71" column="82" selection-start-line="71" selection-start-column="82" selection-end-line="71" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/js/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/captcha/xfzcaptcha.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1779">
@@ -732,7 +704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
+        <state relative-caret-position="1707">
           <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
@@ -740,6 +712,37 @@
             <marker date="1542783022425" expanded="true" signature="714:719" ph="..." />
             <marker date="1542783022425" expanded="true" signature="1633:1638" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/templates/common/auth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/dist/js/auth.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1534" selection-start-column="1523" selection-end-column="1534" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/js/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
         </state>
       </provider>
     </entry>
