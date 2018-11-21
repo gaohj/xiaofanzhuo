@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34efa687-67de-4511-bb78-85a3bfe10521" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/dist/js/auth.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/dist/js/auth.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/js/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/js/auth.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +61,7 @@
           <entry key="html" value="48" />
           <entry key="ini" value="1" />
           <entry key="js" value="18" />
-          <entry key="py" value="75" />
+          <entry key="py" value="77" />
           <entry key="scss" value="12" />
           <entry key="sock" value="1" />
         </counts>
@@ -77,7 +73,7 @@
           <entry key="Ini" value="1" />
           <entry key="JavaScript" value="18" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="75" />
+          <entry key="Python" value="77" />
           <entry key="SCSS" value="12" />
         </counts>
       </usages-collector>
@@ -136,7 +132,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -157,16 +153,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+            <state relative-caret-position="447">
+              <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
-                <marker date="1542774740112" expanded="true" signature="549:676" ph="..." />
-                <marker date="1542774740112" expanded="true" signature="714:719" ph="..." />
-                <marker date="1542774740112" expanded="true" signature="1633:1638" ph="..." />
+                <marker date="1542783022425" expanded="true" signature="549:676" ph="..." />
+                <marker date="1542783022425" expanded="true" signature="714:719" ph="..." />
+                <marker date="1542783022425" expanded="true" signature="1633:1638" ph="..." />
               </folding>
             </state>
           </provider>
@@ -231,10 +227,10 @@
         <option value="$PROJECT_DIR$/uwsgi.ini" />
         <option value="$PROJECT_DIR$/utils/aliyunsdk/demo_sms_send.py" />
         <option value="$PROJECT_DIR$/front/dist/js/auth.min.js" />
-        <option value="$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py" />
         <option value="$PROJECT_DIR$/front/templates/common/auth.html" />
         <option value="$PROJECT_DIR$/front/src/js/auth.js" />
         <option value="$PROJECT_DIR$/apps/xiaofanzhuoauth/forms.py" />
+        <option value="$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py" />
       </list>
     </option>
   </component>
@@ -253,7 +249,7 @@
       <path value="$PROJECT_DIR$/front/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="135" />
     <option name="y" value="132" />
     <option name="width" value="1418" />
@@ -391,7 +387,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.14792176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.14792176" />
       <window_info id="Structure" order="1" sideWeight="0.50167227" side_tool="true" weight="0.2591687" />
       <window_info id="Favorites" order="2" sideWeight="0.50167227" side_tool="true" weight="0.2591687" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -577,13 +573,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/aliyunsdk/aliyunsms.py" />
     <entry file="file://$PROJECT_DIR$/utils/aliyunsdk/dysms_python/demo_sms_send.py" />
-    <entry file="file://$PROJECT_DIR$/utils/captcha/xfzcaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.giignore" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -710,19 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-            <marker date="1542774740112" expanded="true" signature="549:676" ph="..." />
-            <marker date="1542774740112" expanded="true" signature="714:719" ph="..." />
-            <marker date="1542774740112" expanded="true" signature="1633:1638" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/templates/common/auth.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -743,6 +719,26 @@
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/captcha/xfzcaptcha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1779">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/xiaofanzhuoauth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+            <marker date="1542783022425" expanded="true" signature="549:676" ph="..." />
+            <marker date="1542783022425" expanded="true" signature="714:719" ph="..." />
+            <marker date="1542783022425" expanded="true" signature="1633:1638" ph="..." />
           </folding>
         </state>
       </provider>

@@ -93,6 +93,5 @@ def sms_captcha(request):
     print(telephone)
     code = Captcha.gene_text() #生成随机的字符
     cache.set(telephone, code, 5 * 60) #然后放到了混存中
-    print('短信验证码：', code)
     result = demo_sms_send.send_sms(telephone,code)#发送给用户
     return restful.success()
