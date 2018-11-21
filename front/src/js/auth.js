@@ -1,6 +1,7 @@
 $(function () {
     var smsCaptcha = $(".sms-captcha-btn");
     var telephoneInput = $(".signup-group input[name='telephone']");
+
     smsCaptcha.click(function () {
 
         var telephone = telephoneInput.val();
@@ -10,7 +11,7 @@ $(function () {
         xfzajax.get({
             'url': '/account/sms_captcha/',
             'data':{
-                'telephone': telephone
+                'telephone': telephone,
             },
             'success': function (result) {
                 if(result['code'] == 200){
@@ -52,13 +53,13 @@ $(function () {
     })
     
     $('.registers').click(function () {
-        alert("123456")
         var signupGroup = $('.signup-group')
         var telephone = signupGroup.find("input[name='telephone']").val();
         var username = signupGroup.find("input[name='username']").val();
         var password1 = signupGroup.find("input[name='password1']").val();
         var password2 = signupGroup.find("input[name='password2']").val();
         var img_captcha = signupGroup.find("input[name='img_captcha']").val();
+        var sms_captcha = signupGroup.find("input[name='sms_captcha']").val();
            xfzajax.post({
             'url': '/account/register/',
             'data': {
@@ -66,7 +67,8 @@ $(function () {
                 'password1': password1,
                 'password2': password2,
                 'username': username,
-                'img_captcha':img_captcha
+                'img_captcha':img_captcha,
+                'sms_captcha':sms_captcha,
 
             },
             'success': function (result) {

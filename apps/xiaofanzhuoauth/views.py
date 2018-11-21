@@ -48,6 +48,7 @@ def login_view(request):
 def logout_view(request):
     logout(request)
     return redirect(reverse('news:index'))
+
 @require_POST
 def register_view(request):
     form = RegisterForm(request.POST)
