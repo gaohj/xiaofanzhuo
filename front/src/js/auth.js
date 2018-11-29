@@ -51,7 +51,7 @@ $(function () {
     $(".close-btn").click(function () {
         $(".mask-wrapper").hide();
     })
-    
+
     $('.registers').click(function () {
         var signupGroup = $('.signup-group')
         var telephone = signupGroup.find("input[name='telephone']").val();
@@ -73,6 +73,7 @@ $(function () {
             },
             'success': function (result) {
                 if(result['code'] == 200){
+                    //数据通过  上面result接收
                     $(".mask-wrapper").hide();
                     window.location.reload();
                 }else{
@@ -98,8 +99,8 @@ $(function () {
 
 
     })
-    
-    
+
+
      $('.submit-btn').click(function() {
         // var d = {};
         // var t = $('.signin-group .form-control').serializeArray();
@@ -200,5 +201,4 @@ function sms() {
         });
     });
 }
-
 

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>扛把子联盟 | 后台管理页面</title>
+  <title>AdminLTE 2 | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -31,26 +31,27 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#">扛把子1806</a>
+    <a href="#">小饭桌管理系统</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
     <p class="login-box-msg">请登录</p>
 
-    <form action="{% url "xiaofanzhuoauth:login" %}" method="post">
+    <form action="{% url 'xfzauth:login' %}" method="post">
+        {% csrf_token %}
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="邮箱" name="telephone">
+        <input type="text" class="form-control" name="telephone" placeholder="手机号码">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="密码" name="password">
+        <input type="password" class="form-control" name="password" placeholder="密码">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
         <div class="col-xs-8">
           <div class="checkbox icheck">
             <label>
-              <input type="checkbox"> 记住我
+              <input type="checkbox" name="remember" value="1"> 记住我
             </label>
           </div>
         </div>
@@ -61,7 +62,6 @@
         <!-- /.col -->
       </div>
     </form>
-
   </div>
   <!-- /.login-box-body -->
 </div>

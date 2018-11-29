@@ -1,4 +1,4 @@
-from  django.http import JsonResponse
+from django.http import JsonResponse
 
 class HttpCode(object):
     success = 200
@@ -7,7 +7,7 @@ class HttpCode(object):
     methoderror = 405
     servererror = 500
 
-#{"code":400,"message":"",data:"" }
+#{"code":400,"message":"您的请求有误",data:"" }
 
 def result(code=HttpCode.success,message="",data=None,kwargs=None):
 

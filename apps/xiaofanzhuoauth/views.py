@@ -47,7 +47,7 @@ def login_view(request):
 
 def logout_view(request):
     logout(request)
-    return redirect(reverse('news:index'))
+    return redirect(reverse('index'))
 
 @require_POST
 def register_view(request):
@@ -65,7 +65,7 @@ def register_view(request):
 
 
 
-
+#图形验证码方法
 def img_captcha(request):
     #第一步 实例化对象 调用
     text,image = Captcha.gene_code()
@@ -85,6 +85,7 @@ def img_captcha(request):
     cache.set(text.lower(),text.lower(),300) #把图形验证码放到缓存中
     return response
 
+# 短信验证码方法
 def sms_captcha(request):
     # result = demo_sms_send.send_sms('15313921315','666666')
     # print(result)
@@ -95,3 +96,5 @@ def sms_captcha(request):
     cache.set(telephone, code, 5 * 60) #然后放到了混存中
     result = demo_sms_send.send_sms(telephone,code)#发送给用户
     return restful.success()
+
+    #这里给你返回数据

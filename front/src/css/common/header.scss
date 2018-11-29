@@ -15,12 +15,11 @@
         width: $pageWidth;
         height: 100%;
         margin: 0 auto;
-        overflow: hidden;
 
         .logo-box{
-            width: 150px;
+            width: 140px;
             height: 49px;
-            background: url("http://www.xfz.cn/static/build/images/new-normal-logo.png") no-repeat;
+            background: url("http://www.xfz.cn/static/build/images/logo.png") no-repeat;
             margin-top: 8px;
             float: left;
 
@@ -52,7 +51,7 @@
 
         }
 
-          .auth-box{
+        .auth-box{
             float: right;
             line-height: $navHeight;
             height: $navHeight;
@@ -79,7 +78,7 @@
                 margin-left: -70px;
                 font-size: 14px;
                 z-index: 2;
-                display: none;
+                display: block;
 
                 .triangle{
                     border: solid transparent;
@@ -101,4 +100,6 @@
             }
         }
     }
+
+
 }

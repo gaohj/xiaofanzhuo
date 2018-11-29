@@ -27,9 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','10.11.53.217']
 
-
-# Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,11 +35,17 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.news',
+    'apps.course',
     'apps.cms',
     'apps.xiaofanzhuoauth',
+    'apps.ueditor',
+    'rest_framework',
+    'debug_toolbar',
+
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -142,4 +145,70 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'front','dist')
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR,'staic_dist')
+# STATIC_ROOT = os.path.join(BASE_DIR,'staic_dist')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+
+# Qiniu配置
+QINIU_ACCESS_KEY = 'p_p2-jutlTI1mlPCSfMEO8DyZnkQaiFrd9IOlvpz'
+QINIU_SECRET_KEY = 'rN0YQux570vbhL5d8QvShrV-SnjzTdqhlfWstWri'
+QINIU_BUCKET_NAME = 'renwoxing'
+QINIU_DOMAIN = 'http://pi6t3p5fn.bkt.clouddn.com'
+
+# UEditor配置
+UEDITOR_UPLOAD_TO_QINIU = True
+UEDITOR_QINIU_ACCESS_KEY = QINIU_ACCESS_KEY
+UEDITOR_QINIU_SECRET_KEY = QINIU_SECRET_KEY
+UEDITOR_QINIU_BUCKET_NAME = QINIU_BUCKET_NAME
+UEDITOR_QINIU_DOMAIN = QINIU_DOMAIN
+
+# 一次加载多少篇文章
+ONE_PAGE_NEWS_COUNT = 2
+
+UEDITOR_UPLOAD_TO_SERVER = True
+UEDITOR_UPLOAD_PATH = MEDIA_ROOT
+
+UEDITOR_CONFIG_PATH = os.path.join(BASE_DIR,'front','dist','ueditor','config.json')
+
+
+#django-debug-toolbar
+
+INTERNAL_IPS  = ['127.0.0.1']
+# Application definition
+DEBUG_TOOLBAR_PANELS = [
+    #  # 代表是哪个django版本
+    # 'debug_toolbar.panels.versions.VersionsPanel',
+    # # 用来计时的，判断加载当前页面总共花的时间
+    'debug_toolbar.panels.timer.TimerPanel',
+    # # 读取django中的配置信息
+    # 'debug_toolbar.panels.settings.SettingsPanel',
+    # # 看到当前请求头和响应头信息
+    # 'debug_toolbar.panels.headers.HeadersPanel',
+    # # 当前请求的想信息（视图函数，Cookie信息，Session信息等）
+    # 'debug_toolbar.panels.request.RequestPanel',
+    # # 查看SQL语句
+    'debug_toolbar.panels.sql.SQLPanel',
+    # # 静态文件
+    # 'debug_toolbar.panels.staticfiles.StaticFilesPanel',
+    # # 模板文件
+    # 'debug_toolbar.panels.templates.TemplatesPanel',
+    # # 缓存
+    # 'debug_toolbar.panels.cache.CachePanel',
+    # # 信号
+    # 'debug_toolbar.panels.signals.SignalsPanel',
+    # # 日志
+    # 'debug_toolbar.panels.logging.LoggingPanel',
+    # # 重定向
+    # 'debug_toolbar.panels.redirects.RedirectsPanel',
+]
+
+DEBUG_TOOLBAR_CONFIG = {
+
+}
+
+# 百度云的配置
+# 控制台->用户中心->用户ID
+BAIDU_CLOUD_USER_ID = '5f8ea981867a4be9992afc6f7a29166e'
+# 点播VOD->全局设置->发布设置->安全设置->UserKey
+BAIDU_CLOUD_USER_KEY = 'dace2aa41df54fd7'
